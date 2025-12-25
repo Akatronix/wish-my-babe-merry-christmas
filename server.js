@@ -30,7 +30,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
 // Password configuration
-const PASSWORD = "KamsiFaith2023"; // Change this to your desired password
+const PASSWORD = "KamsiFaith2025"; // Change this to your desired password
 
 // Routes
 app.get("/", (req, res) => {
@@ -66,3 +66,4 @@ app.listen(PORT, () => {
   console.log(`Access your Christmas wish at: http://localhost:${PORT}`);
   console.log(`Password: ${PASSWORD}`);
 });
+
